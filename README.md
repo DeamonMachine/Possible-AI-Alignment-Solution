@@ -65,8 +65,8 @@ L(θ) =
 
 ---
 
-**Author**: [Your Name]  
-**Contact**: [Your Email or X Handle]  
+**Author**: John Budzichowski
+**Contact**: DeamonMachine on Discord is the easiest way to reach me.   
 **Date**: November 1, 2025  
 **License**: CC-BY 4.0 (share & adapt with credit)
 
