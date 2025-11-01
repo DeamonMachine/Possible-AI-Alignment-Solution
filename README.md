@@ -7,16 +7,15 @@
 
 ## Core Equation (Drop-in for RLHF)
 
-$$
-\mathcal{L}(\theta) =
--\sum_{i \in \mathcal{P}} w_i u_i(\theta)
-+ \lambda_1 \cdot \text{Gini}(\{u_i\})
-+ \lambda_2 \cdot \max(0, u_{\min} - \min_i u_i)^2
-+ \lambda_3 \cdot \sum_i \sigma(u_i)
-- \lambda_4 \cdot H(\text{latent reps})
-+ \lambda_5 \cdot W_2(P_{\text{latent}} \| P_{\text{real}})
-+ \lambda_6 \cdot \sum_j \|\nabla_{\text{do}(a_j)} u_{-j}\|_1
-$$
+L(θ) = 
+−∑₍ᵢ∈𝓟₎ wᵢ·uᵢ(θ)
++ λ₁·Gini({uᵢ})
++ λ₂·max(0, u_min − minᵢ uᵢ)²
++ λ₃·∑ᵢ σ(uᵢ)
+− λ₄·H(latent reps)
++ λ₅·W₂(P_latent ∥ P_real)
++ λ₆·∑ⱼ ||∇_{do(aⱼ)} u_{−ⱼ}||₁
+
 
 
 ---
